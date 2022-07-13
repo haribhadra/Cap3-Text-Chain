@@ -9,7 +9,7 @@ print(comillas)
 print()
 
 # Comillas simples escapadas con "/" y con comillas simples
-comillas2 = 'Mas texto con escapes de '\strings'\ como sub cadenas'
+comillas2 = 'Mas texto con escapes de \'strings\' como sub cadenas'
 print(comillas2)
 print()
 
@@ -31,6 +31,27 @@ print(conver1)
 print()
 
 # Secuencias de escape \n (salto de linea) o \t (tabulación)
-salto = 'Texto con sltos de varias lineas \nSegunda linea de texto y van mas \nTercera linea de texto'
+salto = 'Texto con saltos de varias lineas \nSegunda linea de texto y van mas \nTercera linea de texto'
 print(salto)
+print()
+
+# Expresiones literales "RAW DATA (r)"
+dato1 = 'abc \ndef'
+print(dato1)
+print()
+
+dato2 = r'abc\ndef'
+print(dato2)
+print()
+
+dato3 = 'a\tb\tc\td\te\tf'
+print(dato3)
+print()
+
+# La función PRINT más a fondo
+msg1 = '¿Sabes por qué estoy acá?'
+msg2 = ' Por qué me gusta'
+# Utilizaremos condiciones como SEP, END para agrgar condiciones a la salida de print
+print(msg1, msg2, sep=' , ')
+print(msg1, msg2, sep=', ', end='..!!')
 print()
