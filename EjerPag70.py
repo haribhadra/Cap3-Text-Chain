@@ -7,7 +7,7 @@ print()
 contador = len(cadena)
 print('Cantidad de Caracteres de la Palabra', cadena,'es', contador, 'caracteres o posiciones')
 posicion = cadena[0]
-posicion2 = cadena[:3]
+posicion2 = cadena[:4] # Esto seria 5 - 1
 print(posicion)
 print(posicion2)
 
